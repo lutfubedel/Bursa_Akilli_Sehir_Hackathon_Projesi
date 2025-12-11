@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
             </div>
 
             <a
-              href="https://github.com/username/project-repo"
+              href="https://github.com/lutfubedel/Bursa_Akilli_Sehir_Hackathon_Projesi/tree/main/web"
               target="_blank"
               rel="noopener noreferrer"
               className="
