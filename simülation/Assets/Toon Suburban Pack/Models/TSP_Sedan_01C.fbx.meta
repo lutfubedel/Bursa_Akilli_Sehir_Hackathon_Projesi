@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 890f622410d29cd459dc5c536fd94bae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: TSP_Sedan_01A_Blinkers.L.001
+    100002: TSP_Sedan_01A_Blinkers.R.001
+    100004: TSP_Sedan_01A_Body.001
+    100006: TSP_Sedan_01A_Door_F.L.001
+    100008: TSP_Sedan_01A_Door_F.R.001
+    100010: TSP_Sedan_01A_Door_R.L.001
+    100012: TSP_Sedan_01A_Door_R.R.001
+    100014: TSP_Sedan_01A_Steering_Wheel.001
+    100016: TSP_Sedan_01A_Sun_Roof.001
+    100018: TSP_Sedan_01A_Taillights.001
+    100020: TSP_Sedan_01A_Wheel_F.L.001
+    100022: TSP_Sedan_01A_Wheel_F.R.001
+    100024: TSP_Sedan_01A_Wheel_R.L.001
+    100026: TSP_Sedan_01A_Wheel_R.R.001
+    100028: //RootNode
+    100030: TSP_Sedan_01C_Headlights
+    100032: TSP_Sedan_01C_Blinkers.L
+    100034: TSP_Sedan_01C_Blinkers.R
+    100036: TSP_Sedan_01C_Body
+    100038: TSP_Sedan_01C_Door_F.L
+    100040: TSP_Sedan_01C_Door_F.R
+    100042: TSP_Sedan_01C_Door_R.L
+    100044: TSP_Sedan_01C_Door_R.R
+    100046: TSP_Sedan_01C_Steering_Wheel
+    100048: TSP_Sedan_01C_Sun_Roof
+    100050: TSP_Sedan_01C_Wheel_F.L
+    100052: TSP_Sedan_01C_Wheel_F.R
+    100054: TSP_Sedan_01C_Wheel_R.L
+    100056: TSP_Sedan_01C_Wheel_R.R
+    100058: TSP_Sedan_01C_Taillights
+    400000: TSP_Sedan_01A_Blinkers.L.001
+    400002: TSP_Sedan_01A_Blinkers.R.001
+    400004: TSP_Sedan_01A_Body.001
+    400006: TSP_Sedan_01A_Door_F.L.001
+    400008: TSP_Sedan_01A_Door_F.R.001
+    400010: TSP_Sedan_01A_Door_R.L.001
+    400012: TSP_Sedan_01A_Door_R.R.001
+    400014: TSP_Sedan_01A_Steering_Wheel.001
+    400016: TSP_Sedan_01A_Sun_Roof.001
+    400018: TSP_Sedan_01A_Taillights.001
+    400020: TSP_Sedan_01A_Wheel_F.L.001
+    400022: TSP_Sedan_01A_Wheel_F.R.001
+    400024: TSP_Sedan_01A_Wheel_R.L.001
+    400026: TSP_Sedan_01A_Wheel_R.R.001
+    400028: //RootNode
+    400030: TSP_Sedan_01C_Headlights
+    400032: TSP_Sedan_01C_Blinkers.L
+    400034: TSP_Sedan_01C_Blinkers.R
+    400036: TSP_Sedan_01C_Body
+    400038: TSP_Sedan_01C_Door_F.L
+    400040: TSP_Sedan_01C_Door_F.R
+    400042: TSP_Sedan_01C_Door_R.L
+    400044: TSP_Sedan_01C_Door_R.R
+    400046: TSP_Sedan_01C_Steering_Wheel
+    400048: TSP_Sedan_01C_Sun_Roof
+    400050: TSP_Sedan_01C_Wheel_F.L
+    400052: TSP_Sedan_01C_Wheel_F.R
+    400054: TSP_Sedan_01C_Wheel_R.L
+    400056: TSP_Sedan_01C_Wheel_R.R
+    400058: TSP_Sedan_01C_Taillights
+    2100000: Atlas_Lights_1A_D
+    2100002: Atlas_1A_D
+    2100004: Glass_Vehicles_01A_D
+    2300000: TSP_Sedan_01A_Blinkers.L.001
+    2300002: TSP_Sedan_01A_Blinkers.R.001
+    2300004: TSP_Sedan_01A_Body.001
+    2300006: TSP_Sedan_01A_Door_F.L.001
+    2300008: TSP_Sedan_01A_Door_F.R.001
+    2300010: TSP_Sedan_01A_Door_R.L.001
+    2300012: TSP_Sedan_01A_Door_R.R.001
+    2300014: TSP_Sedan_01A_Steering_Wheel.001
+    2300016: TSP_Sedan_01A_Sun_Roof.001
+    2300018: TSP_Sedan_01A_Taillights.001
+    2300020: TSP_Sedan_01A_Wheel_F.L.001
+    2300022: TSP_Sedan_01A_Wheel_F.R.001
+    2300024: TSP_Sedan_01A_Wheel_R.L.001
+    2300026: TSP_Sedan_01A_Wheel_R.R.001
+    2300028: TSP_Sedan_01C_Headlights
+    2300030: TSP_Sedan_01C_Blinkers.L
+    2300032: TSP_Sedan_01C_Blinkers.R
+    2300034: TSP_Sedan_01C_Body
+    2300036: TSP_Sedan_01C_Door_F.L
+    2300038: TSP_Sedan_01C_Door_F.R
+    2300040: TSP_Sedan_01C_Door_R.L
+    2300042: TSP_Sedan_01C_Door_R.R
+    2300044: TSP_Sedan_01C_Steering_Wheel
+    2300046: TSP_Sedan_01C_Sun_Roof
+    2300048: TSP_Sedan_01C_Wheel_F.L
+    2300050: TSP_Sedan_01C_Wheel_F.R
+    2300052: TSP_Sedan_01C_Wheel_R.L
+    2300054: TSP_Sedan_01C_Wheel_R.R
+    2300056: TSP_Sedan_01C_Taillights
+    3300000: TSP_Sedan_01A_Blinkers.L.001
+    3300002: TSP_Sedan_01A_Blinkers.R.001
+    3300004: TSP_Sedan_01A_Body.001
+    3300006: TSP_Sedan_01A_Door_F.L.001
+    3300008: TSP_Sedan_01A_Door_F.R.001
+    3300010: TSP_Sedan_01A_Door_R.L.001
+    3300012: TSP_Sedan_01A_Door_R.R.001
+    3300014: TSP_Sedan_01A_Steering_Wheel.001
+    3300016: TSP_Sedan_01A_Sun_Roof.001
+    3300018: TSP_Sedan_01A_Taillights.001
+    3300020: TSP_Sedan_01A_Wheel_F.L.001
+    3300022: TSP_Sedan_01A_Wheel_F.R.001
+    3300024: TSP_Sedan_01A_Wheel_R.L.001
+    3300026: TSP_Sedan_01A_Wheel_R.R.001
+    3300028: TSP_Sedan_01C_Headlights
+    3300030: TSP_Sedan_01C_Blinkers.L
+    3300032: TSP_Sedan_01C_Blinkers.R
+    3300034: TSP_Sedan_01C_Body
+    3300036: TSP_Sedan_01C_Door_F.L
+    3300038: TSP_Sedan_01C_Door_F.R
+    3300040: TSP_Sedan_01C_Door_R.L
+    3300042: TSP_Sedan_01C_Door_R.R
+    3300044: TSP_Sedan_01C_Steering_Wheel
+    3300046: TSP_Sedan_01C_Sun_Roof
+    3300048: TSP_Sedan_01C_Wheel_F.L
+    3300050: TSP_Sedan_01C_Wheel_F.R
+    3300052: TSP_Sedan_01C_Wheel_R.L
+    3300054: TSP_Sedan_01C_Wheel_R.R
+    3300056: TSP_Sedan_01C_Taillights
+    4300000: TSP_Sedan_01C_Headlights
+    4300002: TSP_Sedan_01A_Body.001
+    4300004: TSP_Sedan_01A_Wheel_R.L.001
+    4300006: TSP_Sedan_01A_Wheel_F.L.001
+    4300008: TSP_Sedan_01A_Sun_Roof.001
+    4300010: TSP_Sedan_01A_Steering_Wheel.001
+    4300012: TSP_Sedan_01A_Wheel_F.R.001
+    4300014: TSP_Sedan_01A_Wheel_R.R.001
+    4300016: TSP_Sedan_01A_Door_F.R.001
+    4300018: TSP_Sedan_01A_Door_F.L.001
+    4300020: TSP_Sedan_01A_Door_R.R.001
+    4300022: TSP_Sedan_01A_Door_R.L.001
+    4300024: TSP_Sedan_01A_Taillights.001
+    4300026: TSP_Sedan_01A_Blinkers.R.001
+    4300028: TSP_Sedan_01A_Blinkers.L.001
+    4300030: TSP_Sedan_01C_Body
+    4300032: TSP_Sedan_01C_Wheel_R.L
+    4300034: TSP_Sedan_01C_Wheel_F.L
+    4300036: TSP_Sedan_01C_Sun_Roof
+    4300038: TSP_Sedan_01C_Steering_Wheel
+    4300040: TSP_Sedan_01C_Wheel_F.R
+    4300042: TSP_Sedan_01C_Wheel_R.R
+    4300044: TSP_Sedan_01C_Door_F.R
+    4300046: TSP_Sedan_01C_Door_F.L
+    4300048: TSP_Sedan_01C_Door_R.R
+    4300050: TSP_Sedan_01C_Door_R.L
+    4300052: TSP_Sedan_01C_Blinkers.R
+    4300054: TSP_Sedan_01C_Blinkers.L
+    4300056: TSP_Sedan_01C_Taillights
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_1A_D
+    second: {fileID: 2100000, guid: 3a2b9314a175d694ebdee90b98c5563b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_Lights_1A_D
+    second: {fileID: 2100000, guid: 37c57a478282c7d4484e25cb4b41251d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Vehicles_01A_D
+    second: {fileID: 2100000, guid: 66004191299921f43ba2b97c1921ba6c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

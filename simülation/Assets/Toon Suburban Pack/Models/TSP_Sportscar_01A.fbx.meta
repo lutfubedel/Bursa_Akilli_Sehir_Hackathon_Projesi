@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 9912ff95dcf4a4c40a71e36d95cfcbc0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: TSP_Sportscar_01A_Body
+    100004: TSP_Sportscar_01A_Door.L
+    100006: TSP_Sportscar_01A_Door.R
+    100008: TSP_Sportscar_01A_Door_Window.L
+    100010: TSP_Sportscar_01A_Door_Window.R
+    100012: TSP_Sportscar_01A_Headlights
+    100014: TSP_Sportscar_01A_Roof
+    100016: TSP_Sportscar_01A_Steering_Wheel
+    100018: TSP_Sportscar_01A_Taillights
+    100020: TSP_Sportscar_01A_Wheel_F.L
+    100022: TSP_Sportscar_01A_Wheel_F.R
+    100024: TSP_Sportscar_01A_Wheel_R.L
+    100026: TSP_Sportscar_01A_Wheel_R.R
+    100028: TSP_Sportscar_01A_Windows.R
+    100030: TSP_Sportscar_01A_Windows
+    400000: //RootNode
+    400002: TSP_Sportscar_01A_Body
+    400004: TSP_Sportscar_01A_Door.L
+    400006: TSP_Sportscar_01A_Door.R
+    400008: TSP_Sportscar_01A_Door_Window.L
+    400010: TSP_Sportscar_01A_Door_Window.R
+    400012: TSP_Sportscar_01A_Headlights
+    400014: TSP_Sportscar_01A_Roof
+    400016: TSP_Sportscar_01A_Steering_Wheel
+    400018: TSP_Sportscar_01A_Taillights
+    400020: TSP_Sportscar_01A_Wheel_F.L
+    400022: TSP_Sportscar_01A_Wheel_F.R
+    400024: TSP_Sportscar_01A_Wheel_R.L
+    400026: TSP_Sportscar_01A_Wheel_R.R
+    400028: TSP_Sportscar_01A_Windows.R
+    400030: TSP_Sportscar_01A_Windows
+    2100000: Atlas_Lights_1A_D
+    2100002: Atlas_1A_D
+    2100004: Glass_Vehicles_01A_D
+    2300000: TSP_Sportscar_01A_Body
+    2300002: TSP_Sportscar_01A_Door.L
+    2300004: TSP_Sportscar_01A_Door.R
+    2300006: TSP_Sportscar_01A_Door_Window.L
+    2300008: TSP_Sportscar_01A_Door_Window.R
+    2300010: TSP_Sportscar_01A_Headlights
+    2300012: TSP_Sportscar_01A_Roof
+    2300014: TSP_Sportscar_01A_Steering_Wheel
+    2300016: TSP_Sportscar_01A_Taillights
+    2300018: TSP_Sportscar_01A_Wheel_F.L
+    2300020: TSP_Sportscar_01A_Wheel_F.R
+    2300022: TSP_Sportscar_01A_Wheel_R.L
+    2300024: TSP_Sportscar_01A_Wheel_R.R
+    2300026: TSP_Sportscar_01A_Windows.R
+    2300028: TSP_Sportscar_01A_Windows
+    3300000: TSP_Sportscar_01A_Body
+    3300002: TSP_Sportscar_01A_Door.L
+    3300004: TSP_Sportscar_01A_Door.R
+    3300006: TSP_Sportscar_01A_Door_Window.L
+    3300008: TSP_Sportscar_01A_Door_Window.R
+    3300010: TSP_Sportscar_01A_Headlights
+    3300012: TSP_Sportscar_01A_Roof
+    3300014: TSP_Sportscar_01A_Steering_Wheel
+    3300016: TSP_Sportscar_01A_Taillights
+    3300018: TSP_Sportscar_01A_Wheel_F.L
+    3300020: TSP_Sportscar_01A_Wheel_F.R
+    3300022: TSP_Sportscar_01A_Wheel_R.L
+    3300024: TSP_Sportscar_01A_Wheel_R.R
+    3300026: TSP_Sportscar_01A_Windows.R
+    3300028: TSP_Sportscar_01A_Windows
+    4300000: TSP_Sportscar_01A_Taillights
+    4300002: TSP_Sportscar_01A_Headlights
+    4300004: TSP_Sportscar_01A_Door.L
+    4300006: TSP_Sportscar_01A_Door_Window.L
+    4300008: TSP_Sportscar_01A_Door.R
+    4300010: TSP_Sportscar_01A_Door_Window.R
+    4300012: TSP_Sportscar_01A_Roof
+    4300014: TSP_Sportscar_01A_Steering_Wheel
+    4300016: TSP_Sportscar_01A_Wheel_R.R
+    4300018: TSP_Sportscar_01A_Wheel_R.L
+    4300020: TSP_Sportscar_01A_Wheel_F.L
+    4300022: TSP_Sportscar_01A_Body
+    4300024: TSP_Sportscar_01A_Windows.R
+    4300026: TSP_Sportscar_01A_Wheel_F.R
+    4300028: TSP_Sportscar_01A_Windows
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_1A_D
+    second: {fileID: 2100000, guid: 3a2b9314a175d694ebdee90b98c5563b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atlas_Lights_1A_D
+    second: {fileID: 2100000, guid: 37c57a478282c7d4484e25cb4b41251d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Vehicles_01A_D
+    second: {fileID: 2100000, guid: 66004191299921f43ba2b97c1921ba6c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
