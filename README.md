@@ -20,7 +20,45 @@ Bu proje 4 ana modülden oluşmaktadır:
 4.  **Simülasyon (Digital Twin):** Unity ile sahadaki durumun 3D ortamda birebir simüle edilmesi.
 
 *(Aşağıdaki alana sistemin blok diyagramını eklemeni öneririm)*
-![System Architecture](https://via.placeholder.com/800x400?text=System+Architecture+Diagram)
+graph TD
+    subgraph Field_Layer [Saha ve Donanım Katmanı]
+        CAM[📹 IP Kamera / WebCam]
+        ESP[📟 IoT Cihazı (ESP32/Arduino)]
+        BAR[🚧 Fiziksel Bariyer / Motorlar]
+    end
+
+    subgraph Processing_Layer [İşleme ve Yapay Zeka]
+        YOLO[🧠 Python & YOLOv8<br/>(Görüntü İşleme)]
+        SERVER[🔄 Backend / MQTT Broker]
+        DB[(🗄️ Veritabanı)]
+    end
+
+    subgraph Application_Layer [Kullanıcı ve Simülasyon]
+        WEB[💻 React & TS Web Dashboard<br/>(Kontrol Paneli)]
+        UNITY[🎮 Unity 3D Simülasyon<br/>(Digital Twin)]
+    end
+
+    %% Bağlantılar
+    CAM -->|RTSP/Video Akışı| YOLO
+    YOLO -->|Araç Sayısı & Yoğunluk| SERVER
+    SERVER <-->|Veri Kaydı| DB
+    
+    ESP <-->|Sensör Verisi & Komut| SERVER
+    ESP -->|PWM Sinyali| BAR
+    
+    WEB -->|Manuel Bariyer Komutu| SERVER
+    SERVER -->|Canlı Veri| WEB
+    
+    SERVER -->|Gerçek Zamanlı Senkronizasyon| UNITY
+    UNITY -->|Simülasyon Verisi (Test)| SERVER
+
+    classDef hardware fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef ai fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef app fill:#bfb,stroke:#333,stroke-width:2px;
+    
+    class CAM,ESP,BAR hardware;
+    class YOLO,SERVER,DB ai;
+    class WEB,UNITY app;
 
 ---
 
