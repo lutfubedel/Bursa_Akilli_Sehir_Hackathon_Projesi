@@ -60,19 +60,56 @@ graph LR
 
 ---
 
-## 🎥 Demo ve Ekran Görüntüleri
+## 🎥 Demo, Videolar ve Sunum
 
-### 1. Web Dashboard & AI Tespiti
-| Dashboard (React) | YOLOv8 Algılama |
-|---|---|
-| ![Web UI](https://via.placeholder.com/400x250?text=React+Dashboard+Screenshot) | ![YOLO Detection](https://via.placeholder.com/400x250?text=YOLOv8+Detection+Gif) |
-
-### 2. Unity Simülasyonu & IoT Testi
-| Unity Digital Twin | Fiziksel Prototip |
-|---|---|
-| ![Unity Sim](https://via.placeholder.com/400x250?text=Unity+Simulation+Gif) | ![IoT Hardware](https://via.placeholder.com/400x250?text=Physical+Device+Photo) |
+> **Not:** Bu projede statik ekran görüntüleri yerine doğrudan demo videoları kullanılmıştır.  
+> Web arayüzü ve proje sunumu için ayrıca harici bağlantılar sağlanmıştır.
 
 ---
+
+### 🌐 Web Dashboard & AI Tespiti
+
+Bu bölümde, web tabanlı kontrol paneli üzerinden anlık trafik yoğunluğu takibi ve YOLOv8 tabanlı araç tespit süreci gösterilmektedir.
+
+- Gerçek zamanlı trafik yoğunluğu analizi  
+- YOLOv8 ile araç tespiti ve sınıflandırma  
+- Otomatik ve manuel bariyer kontrolü  
+- Karar mekanizmasının görsel çıktıları  
+
+🎬 **Demo Videosu:**  
+https://www.youtube.com/watch?v=WEB_AI_DEMO_VIDEO_ID  
+
+🔗 **Web Dashboard Linki:**  
+https://smart-barrier-demo-site-link  
+
+---
+
+### 🎮 Unity Digital Twin Simülasyonu
+
+Bu video, gerçek trafik verilerinin Unity 3D ortamında dijital ikiz (Digital Twin) yaklaşımıyla nasıl simüle edildiğini göstermektedir.
+
+- Dinamik şerit yönetimi  
+- Bariyer animasyonları  
+- Senaryo ve stres testleri  
+- Gerçek zamanlı veri entegrasyonu  
+
+🎬 **Unity Simülasyon Videosu:**  
+https://www.youtube.com/watch?v=UNITY_SIMULATION_VIDEO_ID  
+
+---
+
+### 📊 Proje Sunumu
+
+Projenin problem tanımı, sistem mimarisi, kullanılan teknolojiler ve elde edilen sonuçlar bu sunumda detaylı olarak ele alınmıştır.
+
+- Problem tanımı ve motivasyon  
+- Sistem mimarisi ve veri akışı  
+- Yapay zeka modeli ve karar mekanizması  
+- Demo senaryoları ve sonuçlar  
+
+📑 **Sunum Linki:**  
+https://presentation-link-buraya  
+
 
 ## ✨ Özellikler
 
