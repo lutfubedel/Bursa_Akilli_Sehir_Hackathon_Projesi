@@ -20,44 +20,36 @@ Sistem, sahadan gelen verilerin işlenmesi, karar verilmesi ve fiziksel/dijital 
 
 ```mermaid
 graph TD
-    subgraph Field_Layer [Saha ve Donanım Katmanı]
-        CAM[📹 IP Kamera / WebCam]
-        ESP[📟 IoT Cihazı (ESP32/Arduino)]
-        BAR[🚧 Fiziksel Bariyer / Motorlar]
+    subgraph Field_Layer["Saha ve Donanım Katmanı"]
+        CAM["IP Kamera / WebCam"]
+        ESP["IoT Cihazı (ESP32 / Arduino)"]
+        BAR["Fiziksel Bariyer / Motorlar"]
     end
 
-    subgraph Processing_Layer [İşleme ve Yapay Zeka]
-        YOLO[🧠 Python & YOLOv8<br/>(Görüntü İşleme)]
-        SERVER[🔄 Backend / MQTT Broker]
-        DB[(🗄️ Veritabanı)]
+    subgraph Processing_Layer["İşleme ve Yapay Zeka"]
+        YOLO["Python + YOLOv8"]
+        SERVER["Backend / MQTT Broker"]
+        DB["Veritabanı"]
     end
 
-    subgraph Application_Layer [Kullanıcı ve Simülasyon]
-        WEB[💻 React & TS Web Dashboard<br/>(Kontrol Paneli)]
-        UNITY[🎮 Unity 3D Simülasyon<br/>(Digital Twin)]
+    subgraph Application_Layer["Kullanıcı ve Simülasyon"]
+        WEB["React + TypeScript Dashboard"]
+        UNITY["Unity 3D Digital Twin"]
     end
 
-    %% Bağlantılar
-    CAM -->|RTSP/Video Akışı| YOLO
-    YOLO -->|Araç Sayısı & Yoğunluk| SERVER
-    SERVER <-->|Veri Kaydı| DB
-    
-    ESP <-->|Sensör Verisi & Komut| SERVER
-    ESP -->|PWM Sinyali| BAR
-    
-    WEB -->|Manuel Bariyer Komutu| SERVER
-    SERVER -->|Canlı Veri| WEB
-    
-    SERVER -->|Gerçek Zamanlı Senkronizasyon| UNITY
-    UNITY -->|Simülasyon Verisi (Test)| SERVER
+    CAM --> YOLO
+    YOLO --> SERVER
+    SERVER --> DB
 
-    classDef hardware fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef ai fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef app fill:#bfb,stroke:#333,stroke-width:2px;
-    
-    class CAM,ESP,BAR hardware;
-    class YOLO,SERVER,DB ai;
-    class WEB,UNITY app;
+    SERVER --> ESP
+    ESP --> BAR
+
+    WEB --> SERVER
+    SERVER --> WEB
+
+    SERVER --> UNITY
+    UNITY --> SERVER
+
 ```
 
 ---
